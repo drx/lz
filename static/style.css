@@ -1,0 +1,49 @@
+body {
+    font-family: 'proxima-nova', sans-serif;
+    padding-bottom: 45px;
+}
+
+a.navbar-brand {
+    color: inherit;
+    font-weight: 600;
+}
+
+a.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+p.navbar-links > a, .nav > li > a {
+    color: #999;
+    background-color: inherit;
+    padding: 15px 6px;
+}
+
+.nav > li > a:hover {
+    color: #337ab7;
+    background-color: inherit;
+}
+
+p.post-description {
+    margin-bottom: 15px;
+}
+
+p.subscribe {
+    margin-top: 30px;
+}
+
+p.subscribe > a:hover {
+    text-decoration: none;
+}
+
+p.subscribe > a:hover > span.underline {
+    text-decoration: underline;
+}
+
+div.index h3 {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+div.index h3.first {
+    margin-top: 20px;
+}

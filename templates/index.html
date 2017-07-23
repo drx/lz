@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="container index">
+    <div class="row">
+      <div class="col-md-7">
+        <h3 class="first">Hello</h3>
+        {% include "intro.html" %}
+
+        <h3>Things</h3>
+        {% for post in posts %}
+          <h4><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h4>
+
+          {% if post.description %}
+            <p class="post-description">{{ post.description }}</p>
+          {% endif %}
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
