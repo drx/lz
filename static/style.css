@@ -1,6 +1,10 @@
 body {
     font-family: 'proxima-nova', sans-serif;
-    padding-bottom: 45px;
+    padding-bottom: 45px; /* iPhone screen fix */
+}
+
+strong {
+    font-weight: 600;
 }
 
 a.navbar-brand {
