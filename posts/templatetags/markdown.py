@@ -6,4 +6,4 @@ register = template.Library()
 
 @register.filter
 def markdown(value):
-    return mistune.markdown(value)
+    return mistune.markdown(value, escape=False)
