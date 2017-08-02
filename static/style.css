@@ -10,6 +10,7 @@ strong {
 a.navbar-brand {
     color: inherit;
     font-weight: 600;
+    padding-left: 0;
 }
 
 a.navbar-brand:hover {
