@@ -46,9 +46,16 @@ p.subscribe > a:hover > span.underline {
 
 div.index h3 {
     font-size: 22px;
+}
+
+div.index h4 {
+    margin-top: 10px;
+}
+
+h1, h2, h3 {
     margin-top: 30px;
 }
 
-div.index h3.first {
+h4, h5, h6 {
     margin-top: 20px;
 }
