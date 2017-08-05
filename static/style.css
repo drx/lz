@@ -63,7 +63,9 @@ h4, h5, h6 {
     text-align: center;
     margin: 0 20px 20px 20px;
 }
-
+ol ol {
+    list-style-type: lower-alpha;
+}
 
 
 /* Syntax highlighting */
