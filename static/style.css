@@ -190,3 +190,13 @@ table.table-fixed tr td {
 .container .table-center td {
     text-align: center;
 }
+
+/* Decompiler post */
+#control-flow-types img {
+    margin: auto;
+    max-height: 202px;
+}
+#control-flow-ack img {
+    margin: auto;
+    max-height: 364px;
+}
