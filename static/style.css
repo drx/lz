@@ -153,3 +153,33 @@ code {
 .highlight .vg { color: #aa0000 } /* Name.Variable.Global */
 .highlight .vi { color: #aa0000 } /* Name.Variable.Instance */
 .highlight .il { color: #4f9fcf } /* Literal.Number.Integer.Long */
+
+
+/* Tables */
+
+.container .table th {
+    font-weight: 600;
+}
+.container .table td {
+    border-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.table-fixed {
+    table-layout: fixed;
+}
+table.table-fixed tr td {
+    padding: 0;
+}
+.table-fixed td.cell-left {
+    padding-right: 8px;
+}
+.table-fixed td.cell-right {
+    padding-left: 8px;
+}
+.table-captioned {
+    margin-bottom: 0;
+}
+.container .table-center td {
+    text-align: center;
+}
