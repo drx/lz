@@ -181,6 +181,9 @@ table.table-fixed tr td {
 .table-fixed td.cell-left {
     padding-right: 8px;
 }
+.table-fixed td.cell-middle {
+    padding: 0 4px;
+}
 .table-fixed td.cell-right {
     padding-left: 8px;
 }
