@@ -187,6 +187,10 @@ table.table-fixed tr td {
 .table-fixed td.cell-right {
     padding-left: 8px;
 }
+.table-fixed tr.caption td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 .table-captioned {
     margin-bottom: 0;
 }
