@@ -164,37 +164,41 @@ code {
 
 /* Tables */
 
-.container .table th {
+.container .table>thead>tr>th {
     font-weight: 600;
 }
-.container .table td {
+.container .table>tbody>tr>td, .container .table>thead>tr>th {
     border-top: 0;
     padding-left: 0;
     padding-right: 0;
 }
+.container .table.table-condensed>thead>tr>th,
+.container .table.table-condensed>tbody>tr>td {
+    padding: 5px;
+}
 .table-fixed {
     table-layout: fixed;
 }
-table.table-fixed tr td {
+table.table-fixed>tbody>tr>td {
     padding: 0;
 }
-.table-fixed td.cell-left {
+.table-fixed>tbody>tr>td.cell-left {
     padding-right: 8px;
 }
-.table-fixed td.cell-middle {
+.table-fixed>tbody>tr>td.cell-middle {
     padding: 0 4px;
 }
-.table-fixed td.cell-right {
+.table-fixed>tbody>tr>td.cell-right {
     padding-left: 8px;
 }
-.table-fixed tr.caption td {
+.table-fixed>tbody>tr.caption>td {
     padding-top: 8px;
     padding-bottom: 8px;
 }
 .table-captioned {
     margin-bottom: 0;
 }
-.container .table-center td {
+.container .table-center>tbody>tr>td {
     text-align: center;
 }
 
