@@ -131,7 +131,7 @@ code {
 .highlight .na { color: #1e90ff } /* Name.Attribute */
 .highlight .nb { color: #4f9fcf } /* Name.Builtin */
 .highlight .nc { color: #00aa00; text-decoration: underline } /* Name.Class */
-.highlight .no { color: #aa0000 } /* Name.Constant */
+.highlight .no { color: #0099ff } /* Name.Constant */
 .highlight .nd { color: #888888 } /* Name.Decorator */
 .highlight .ni { color: #800000; font-weight: bold } /* Name.Entity */
 .highlight .nf { color: #3faf3f; } /* Name.Function */
