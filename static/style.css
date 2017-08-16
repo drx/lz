@@ -73,6 +73,15 @@ p.caption {
 ol ol {
     list-style-type: lower-alpha;
 }
+p.equation {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+}
+span.equation, var {
+    font-weight: 300;
+}
 
 
 /* Syntax highlighting */
