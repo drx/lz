@@ -82,6 +82,10 @@ p.equation {
 span.equation, var {
     font-weight: 300;
 }
+a:target {
+    padding: .2em;
+    background-color: #fcf8e3;
+}
 
 
 /* Syntax highlighting */
