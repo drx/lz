@@ -205,6 +205,7 @@ table.table-fixed>tbody>tr>td {
 .table-fixed>tbody>tr.caption>td {
     padding-top: 8px;
     padding-bottom: 8px;
+    font-size: 13px;
 }
 .table-captioned {
     margin-bottom: 0;
