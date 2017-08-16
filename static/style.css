@@ -36,11 +36,10 @@ p.subscribe {
     margin-top: 30px;
 }
 
-p.subscribe > a:hover {
+a.icon-link:hover {
     text-decoration: none;
 }
-
-p.subscribe > a:hover > span.underline {
+a.icon-link:hover > span.link-text {
     text-decoration: underline;
 }
 
