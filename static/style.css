@@ -88,6 +88,15 @@ a:target {
 }
 
 
+/* OpenType */
+.opentype-frac {
+  font-variant-numeric: diagonal-fractions;
+  -moz-font-feature-settings: "frac";
+  -webkit-font-feature-settings: "frac";
+  font-feature-settings: "frac";
+}
+
+
 /* Syntax highlighting */
 
 code, kbd, pre, samp {
