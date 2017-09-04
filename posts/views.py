@@ -4,7 +4,7 @@ from .models import Post
 
 
 def index(request):
-    posts = Post.objects.all().order_by('-published_date')
+    posts = Post.objects.filter(is_published=True).order_by('-published_date')
     return render(request, 'index.html', {'posts': posts})
 
 
