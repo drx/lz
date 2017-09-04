@@ -9,7 +9,7 @@ class Post(models.Model):
     created_date = models.DateTimeField(auto_now_add=True)
     modified_date = models.DateTimeField(auto_now=True)
 
-    published_date = models.DateTimeField(blank=True)
+    published_date = models.DateTimeField(blank=True, null=True)
     is_published = models.BooleanField(default=False)
 
     description = models.TextField(blank=True)
